@@ -9124,7 +9124,7 @@ GameObject:
   - component: {fileID: 1196424739}
   m_Layer: 0
   m_Name: BasicSnail1
-  m_TagString: Untagged
+  m_TagString: BasicSnail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9154,7 +9154,7 @@ Animator:
   m_GameObject: {fileID: 1196424738}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b99ea1e20a84746409ec9eb0dcfeeb84, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
