@@ -44,6 +44,9 @@ TagManager:
   - name: background
     uniqueID: 4095698843
     locked: 0
+  - name: Sparkle
+    uniqueID: 2143122527
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
