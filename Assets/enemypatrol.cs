@@ -14,8 +14,8 @@ public class enemypatrol : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Rigidbody2D>();
-        currentPoint - pointB.transform;
+        anim = GetComponent<Animator>();
+        currentPoint = pointB.transform;
         anim.SetBool("isRunning", true);
     }
 
