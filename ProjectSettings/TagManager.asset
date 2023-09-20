@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - NpcTalk TEST
   - DeathBox_1
+  - Old_Mush
   layers:
   - Default
   - TransparentFX
