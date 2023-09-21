@@ -747,6 +747,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Next Scene",
+            "id": "dd079b80-1c1e-4925-9203-4a7eec1a1d13",
+            "actions": [
+                {
+                    "name": "Space To Next Scene",
+                    "type": "Button",
+                    "id": "e2c58157-30a3-4c7e-9067-27119172e9c3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9ce29e35-9080-4a7c-ad5d-3518c9af3a37",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Space To Next Scene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

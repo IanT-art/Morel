@@ -51,3 +51,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Top - Indicators
+    uniqueID: 1587979245
+    locked: 0
