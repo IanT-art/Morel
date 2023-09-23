@@ -8,6 +8,7 @@ TagManager:
   - NpcTalk TEST
   - DeathBox_1
   - Old_Mush
+  - SceneLoader
   layers:
   - Default
   - TransparentFX
