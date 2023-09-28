@@ -1504,6 +1504,37 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!1 &186771368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 186771369}
+  m_Layer: 0
+  m_Name: Projectile1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &186771369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186771368}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.84, y: -0.38, z: -0.35182902}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 636220387}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &216818698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4645,7 +4676,7 @@ GameObject:
   - component: {fileID: 636220383}
   - component: {fileID: 636220382}
   - component: {fileID: 636220381}
-  - component: {fileID: 636220388}
+  - component: {fileID: 636220389}
   m_Layer: 0
   m_Name: Gun Goomba
   m_TagString: Untagged
@@ -4830,10 +4861,11 @@ Transform:
   m_LocalPosition: {x: -19.12, y: 9.05, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 186771369}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &636220388
+--- !u!114 &636220389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4845,6 +4877,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c21027d7427f740e5b7428c42c8660f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePosition: {fileID: 186771369}
+  projectile: {fileID: 5311467330995175051, guid: 8ca5c2aa07878483982358bd2c4f9e8a, type: 3}
 --- !u!213 &640744267
 Sprite:
   m_ObjectHideFlags: 0
