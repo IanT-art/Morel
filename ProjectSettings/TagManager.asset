@@ -10,6 +10,7 @@ TagManager:
   - Old_Mush
   - SceneLoader
   - Bouncy Mushroom
+  - Slug
   layers:
   - Default
   - TransparentFX
