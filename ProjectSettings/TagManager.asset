@@ -11,6 +11,7 @@ TagManager:
   - SceneLoader
   - Bouncy Mushroom
   - Slug
+  - Mr_Agaric
   layers:
   - Default
   - TransparentFX
