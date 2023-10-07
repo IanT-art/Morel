@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: wood and baby resetter
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"c4df4f70-c6e4-44e0-9707-3934af53d8c3","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"kind":"Application","defaultValues":{"name":{"$content":"GotWood","$type":"System.String"}},"position":{"x":-1.0,"y":-112.0},"guid":"545adf2c-7a15-4e4a-af4b-f9e27ed5addd","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"kind":"Application","defaultValues":{"name":{"$content":"GotBaby","$type":"System.String"}},"position":{"x":194.0,"y":-82.0},"guid":"72fab780-668e-4fa1-8014-67a7c4d553cb","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"13"},{"type":"System.Boolean","value":{"$content":false,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-162.0,"y":17.0},"guid":"1bb0fd6e-9333-483d-90af-fe3991242495","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"15"},{"type":"System.Boolean","value":{"$content":false,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":34.0,"y":101.0},"guid":"e4782b38-a39a-421b-841c-c7a5cdc1ab93","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"933ff3a8-03b0-44e5-b503-5aeecc2a9c70","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"assigned","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"574fa28c-8a57-42eb-8724-3c7e7819ec8d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"21eede29-df4f-430a-83bb-151af9d5d3bd","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"04eed441-b8b2-4c6d-b676-70e6297fe712","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
