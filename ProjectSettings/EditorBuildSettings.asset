@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level Two.unity
     guid: f3c4592614d1c20408774db9a236728b
+  - enabled: 1
+    path: Assets/Scenes/Level One Post Baby.unity
+    guid: 75af686769debe448ac8ca974874ef6c
   m_configObjects: {}
