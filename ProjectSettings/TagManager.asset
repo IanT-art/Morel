@@ -64,3 +64,6 @@ TagManager:
   - name: Top - Indicators
     uniqueID: 1587979245
     locked: 0
+  - name: Cutscene
+    uniqueID: 1546309219
+    locked: 0
